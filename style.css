@@ -40,6 +40,7 @@
 .fa-image:before{content:"\f03e"}
 .fa-dice-six:before{content:"\f526"}
 .fa-copyright:before{content:"\f1f9"}
+.fa-gamepad:before{content:"\f11b"}
 
 
 /* Font awesome 5 Free */
@@ -131,7 +132,25 @@ h1::selection {
 	width: calc(100% - 100px);
 	border-radius: 10px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	margin: 100px auto 0 auto;
+	margin: 100px auto 20px auto;
+}
+
+main {
+	padding: 1rem 4rem 4rem 4rem;
+	background: white;
+	border-radius: 10px;
+}
+
+.homepage main {
+	border-radius: 10px 10px 0 0;
+	padding: 1rem 4rem 1rem 4rem;
+}
+
+footer {
+	background-color: #2196F3;
+	padding: 1rem 4rem 1rem 4rem;
+	border-radius: 0 0 10px 10px;
+	color: white;
 }
 
 .homepage {
@@ -144,20 +163,6 @@ ul {
 
 li {
 	margin: 0.25rem 0;
-}
-
-main {
-	padding: 1rem 4rem 1rem 4rem;
-	background: white;
-	border-radius: 10px 10px 0 0;
-}
-
-
-footer {
-	background-color: #2196F3;
-	padding: 1rem 4rem 1rem 4rem;
-	border-radius: 0 0 10px 10px;
-	color: white;
 }
 
 .iconlink {

@@ -23,8 +23,7 @@ printHeader() ?>
 						 <ul>
 							<li><a href="galerij.php"><i class="fas fa-image"></i> Galerij</a></li>
 							<li><a href="https://rutgerkok.nl/minecraft/"><i class="fas fa-cube"></i> Wereldbouw</a></li>
-							<li><a href><i class="fas fa-dice-six"></i> Random dingen</a></li>
-							<li><a href><i class="fas fa-copyright"></i> Copyright en credits</a></li>
+							<li><a href="copyright.php"><i class="fas fa-copyright"></i> Copyright en credits</a></li>
 						</ul> 
 					</article>
 				</div>
