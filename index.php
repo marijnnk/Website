@@ -29,7 +29,7 @@ printHeader() ?>
 				</div>
 			</main>
 			<footer>
-				<p>Je kan me bereiken via e-mail. <a href="mailto:someone@example.com" class="button"><i class="fas fa-paper-plane"></i> Groetjes!</a></p>
+				<p>Je kan me bereiken via e-mail. <a href="mailto:marijn@marijnk.nl" class="button"><i class="fas fa-paper-plane"></i> Groetjes!</a></p>
 			</footer>
 		</div>
 	<script src="scroll.js"></script>

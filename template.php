@@ -1,12 +1,12 @@
 <?php
-const WEB_ROOT = "/2zqa/marijn-kok/";
+const WEB_ROOT = "/";
 function printHeader() {
 	?>
 		<!DOCTYPE html>
 		<html lang="nl">
 			<head>
 				<meta charset="utf-8" /> 
-				<title>marijn-kok.nl</title>
+				<title>marijnk.nl</title>
 				<link rel="stylesheet" href="style.css">
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 			</head>

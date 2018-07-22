@@ -65,14 +65,15 @@
 	margin: 0 0.5rem 0.5rem 0;
 }
 
-html, body {
-	background: url(images/achtergrond.jpg) no-repeat center center fixed;
-	background-size: cover;
+html {
 	margin: 0;
 }
 
 body {
+	background: url(images/achtergrond.jpg) no-repeat center center fixed;
+	background-size: cover;
 	overflow-y:scroll;
+	margin: 0;
 }
 
 a {
@@ -265,6 +266,7 @@ a.button {
 	text-align: center;
 	transition: all 0.2s;
 }
+
 a.button:hover {
 	color:#000000;
 	background-color:#FFFFFF;
@@ -276,7 +278,7 @@ a.button:hover {
 	}
 }
 
-@media (max-width: 60rem) {
+@media (max-width: 60rem) {	
 	#one, #two {
 		float: none;
 		padding: 0;
@@ -298,6 +300,12 @@ a.button:hover {
 	
 
 @media (max-width: 40rem) {	
+	body {
+		background-attachment: scroll;
+		background-size: auto 100vh;
+		background-position: top;
+	}
+	
 	.page {
 		width: 100%;
 		border-radius: 10px 10px 0 0;
@@ -305,14 +313,7 @@ a.button:hover {
 		background-color: white;
 	}
 	
-	html, body {
-		background-size: default;
-		background-attachment: scroll;
-		height: 100%;
-		
-	}
-	
-	main {
+	.homepage main, main {
 		padding: 1rem;
 	}
 	
