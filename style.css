@@ -31,6 +31,7 @@
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
+	margin-right: 0.33em;
 }
 
 .fa-paper-plane:before{content:"\f1d8"}
@@ -254,6 +255,7 @@ p, ul {
 a.button {
 	display: inline-block;
 	vertical-align: middle;
+	text-align: left;
 	padding: 0.25rem 1rem;
 	border: 0.1em solid #FFFFFF;
 	margin: 0 0.3rem 0.3rem 0.5rem;
@@ -263,7 +265,7 @@ a.button {
 	font-family: Bariol,sans-serif;
 	font-weight: 300;
 	color: #FFFFFF;
-	text-align: center;
+	width: 10em;
 	transition: all 0.2s;
 }
 
