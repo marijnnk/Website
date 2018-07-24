@@ -19,7 +19,7 @@ function printCompleteHeader() {
 	printHeader();
 	?>
 	<div class="page" id="info">
-			<main class="">
+			<main>
 <?php
 }
 function printFooter() {

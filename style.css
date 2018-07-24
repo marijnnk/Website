@@ -237,6 +237,7 @@ p, ul {
 	background-size: cover;
 	height: 100%;
 	transition: transform .1s ease-out;
+	cursor: zoom-in;
 }
 
 .img-bottom {
@@ -313,6 +314,7 @@ a.button:hover {
 		border-radius: 10px 10px 0 0;
 		margin-bottom: 0;
 		background-color: white;
+		min-height: calc(100vh - 100px);
 	}
 	
 	.homepage main, main {
