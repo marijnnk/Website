@@ -7,6 +7,7 @@ function printHeader() {
 			<head>
 				<meta charset="utf-8" /> 
 				<title>marijnk.nl</title>
+				<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon" />
 				<link rel="stylesheet" href="style.css">
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 			</head>
