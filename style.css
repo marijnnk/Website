@@ -39,6 +39,7 @@
 .fa-caret-left:before{content: "\f0d9"}
 .fa-cube:before{content:"\f1b2"}
 .fa-image:before{content:"\f03e"}
+.fa-camera-retro:before{content:"\f083"}
 .fa-dice-six:before{content:"\f526"}
 .fa-copyright:before{content:"\f1f9"}
 .fa-gamepad:before{content:"\f11b"}
@@ -71,7 +72,7 @@ html {
 }
 
 body {
-	background: url(images/achtergrond.jpg) no-repeat center center fixed;
+	background: url(media/achtergrond.jpg) no-repeat center center fixed;
 	background-size: cover;
 	overflow-y:scroll;
 	margin: 0;
