@@ -12,7 +12,8 @@ printHeader() ?>
 					<article id="one">
 						<h3>Ik</h3>
 						<p>
-							<img class="photo" src="images/marijn.jpg"/>Hoi! Ik ben Marijn, aankomend student HBO-ICT aan de Hanzehogeschool in Groningen. Ik ben groot fan van techniek, waaronder mechanische toetsenborden, Android en de Raspberry Pi. Verder ben ik graag creatief bezig. Ik gebruik mijn telefoon voor fotografie en voorheen Cinema&nbsp;4D om CGI te ontwerpen. Mijn werk kun je vinden in de <a href="galerij.php">galerij</a>. Deze site is zelf gemaakt.
+							<img class="photo" src="images/marijn.jpg"/>
+							Hoi! Ik ben Marijn, student HBO-ICT aan de Hanzehogeschool in Groningen. Ik ben groot fan van techniek, waaronder mechanische toetsenborden, Android en de Raspberry Pi. Verder ben ik graag creatief bezig. Ik gebruikte voorheen Cinema&nbsp;4D om CGI te ontwerpen, en ben van plan Blender te leren wanneer ik weer eens tijd heb. Mijn werk kun je vinden in de <a href="galerij.php">galerij</a>. Deze site is zelf gemaakt.
 						</p>
 					</article>
 					<article id="two">
