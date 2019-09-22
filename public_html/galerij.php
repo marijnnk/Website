@@ -2,7 +2,7 @@
 require "../template.php";
 printCompleteHeader() ?>
 
-	<h2><a class="iconlink" href="<?= WEB_ROOT ?>"><i class="fas fa-caret-left"></i></a> Gallerij</h2>
+	<h2><a class="iconlink" href="<?= WEB_ROOT ?>"><i class="fas fa-caret-left"></i></a>Gallerij</h2>
 
 	<div class="img-wrapper">
 		<a href="media/gallery/nexus4.jpg" download>
