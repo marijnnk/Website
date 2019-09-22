@@ -7,12 +7,12 @@ function printHeader() {
 			<head>
 				<meta charset="utf-8" /> 
 				<title>marijnk.nl</title>
-				<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon" />
+				<link rel="shortcut icon" href="media/logos/favicon.ico" type="image/x-icon" />
 				<link rel="stylesheet" href="style.css">
 				<meta name="viewport" content="width=device-width, initial-scale=1">
 			</head>
 			<body>
-				<a href="<?= WEB_ROOT ?>"><img class="logo" src="icons/logo.svg"/></a>
+				<a href="<?= WEB_ROOT ?>"><img class="logo" src="media/logos/logo.svg"/></a>
 <?php
 }
 function printCompleteHeader() {

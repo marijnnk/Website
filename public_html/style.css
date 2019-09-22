@@ -1,12 +1,13 @@
 @font-face {
-  font-family: "Bebas Neue";
-  src: url(./fonts/BebasNeue-Regular.woff2) format("woff2");
+	font-family: "Bebas Neue";
+	src: url(./fonts/BebasNeue-Regular.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: "Bariol";
-  src: url(./fonts/bariol_regular-webfont.woff2) format("woff2");
+	font-family: "Bariol";
+	src: url(./fonts/bariol_regular-webfont.woff2) format("woff2");
 }
+
 
 /* Font awesome 5 Free */
 
@@ -15,15 +16,30 @@
 	font-style: normal;
 	font-weight: 400;
 	src: url(./fonts/fa-regular-400.woff2) format("woff2");
-	src: url(./fonts/fa-solid-900.woff2)   format("woff2");
+	src: url(./fonts/fa-solid-900.woff2) format("woff2");
 }
 
-.far{font-family:"Font Awesome 5 Free";font-weight:400}
-.fas{font-family:"Font Awesome 5 Free";font-weight:900}
-.fa-2x{font-size:2em}
-.fa-3x{font-size:3em}
+.far {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 400
+}
 
-.fa, .far, .fas {
+.fas {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900
+}
+
+.fa-2x {
+	font-size: 2em
+}
+
+.fa-3x {
+	font-size: 3em
+}
+
+.fa,
+.far,
+.fas {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
@@ -34,23 +50,71 @@
 	margin-right: 0.33em;
 }
 
-.fa-paper-plane:before{content:"\f1d8"} /* E-mail */
-.fa-chevron-down:before{content: "\f078"} /* Main page */
-.fa-caret-left:before{content: "\f0d9"} /* Back button */
-.fa-cube:before{content:"\f1b2"} /* Wereldbouw */
-.fa-image:before{content:"\f03e"} /* Gallery */
-.fa-copyright:before{content:"\f1f9"} /* I wonder what this could be :P */
+.fa-paper-plane:before {
+	content: "\f1d8"
+}
+
+
+/* E-mail */
+
+.fa-chevron-down:before {
+	content: "\f078"
+}
+
+
+/* Main page */
+
+.fa-caret-left:before {
+	content: "\f0d9"
+}
+
+
+/* Back button */
+
+.fa-cube:before {
+	content: "\f1b2"
+}
+
+
+/* Wereldbouw */
+
+.fa-image:before {
+	content: "\f03e"
+}
+
+
+/* Gallery */
+
+.fa-copyright:before {
+	content: "\f1f9"
+}
+
+
+/* I wonder what this could be :P */
+
 
 /* end Font awesome 5 Free */
 
+
 /* Order of css rules is sometimes a bit of a mess,
    this is back from when I was just messing around with css */
+
 @keyframes pulse {
-	0% {bottom:3rem}
-	25% {bottom:5rem}
-	50% {bottom:3rem}
-	75% {bottom:3.5rem}
-	100% {bottom:3rem}
+	0% {
+		bottom: 3rem
+	}
+	25% {
+		bottom: 5rem
+	}
+	50% {
+		bottom: 3rem
+	}
+	75% {
+		bottom: 3.5rem
+	}
+	100% {
+		bottom: 3rem
+	}
 }
 
 * {
@@ -70,9 +134,9 @@ html {
 }
 
 body {
-	background: url(images/achtergrond.jpg) no-repeat center center fixed;
+	background: url(media/achtergrond.jpg) no-repeat center center fixed;
 	background-size: cover;
-	overflow-y:scroll;
+	overflow-y: scroll;
 	margin: 0;
 }
 
@@ -98,15 +162,15 @@ a:hover {
 	width: 125px;
 	max-width: 125px;
 	-moz-user-select: none;
-    user-select: none;
+	user-select: none;
 }
 
 header {
-    position: absolute;
-    top: 50%;
+	position: absolute;
+	top: 50%;
 	width: 100%;
 	text-align: center;
-    transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 h1 {
@@ -132,7 +196,7 @@ h1::selection {
 	max-width: 80rem;
 	width: calc(100% - 100px);
 	border-radius: 10px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 	margin: 100px auto 20px auto;
 }
 
@@ -173,14 +237,14 @@ ul li {
 }
 
 .chevron {
-    position: fixed;
-	z-index:-1;
-    margin: 0 50% 0 50%;
+	position: fixed;
+	z-index: -1;
+	margin: 0 50% 0 50%;
 	color: white;
 	transform: translateX(-16px);
 	transition: transform 2s ease;
 	animation-name: pulse;
-    animation-duration: 3s;
+	animation-duration: 3s;
 	animation-delay: 2s;
 	animation-fill-mode: both;
 }
@@ -190,11 +254,17 @@ h2 {
 	padding-bottom: 2rem;
 }
 
-h2, h3, h4, p, li, a {
+h2,
+h3,
+h4,
+p,
+li,
+a {
 	font-family: Bariol, Helvetica;
 }
 
-h2, h3 {
+h2,
+h3 {
 	font-weight: bold;
 	margin: 20px 0 20px 0;
 	font-size: 2rem;
@@ -210,7 +280,8 @@ h4:before {
 	content: "| ";
 }
 
-p, li  {
+p,
+li {
 	font-size: 1.5rem;
 	text-align: justify;
 }
@@ -223,7 +294,7 @@ footer p {
 	margin: 1em 0;
 }
 
-.wrapper { 
+.wrapper {
 	overflow: hidden;
 }
 
@@ -237,7 +308,7 @@ footer p {
 	padding-right: 2rem;
 }
 
-#two { 
+#two {
 	overflow: hidden;
 	width: 50%;
 	padding-left: 2rem;
@@ -262,8 +333,8 @@ footer p {
 
 .img-wrapper {
 	display: inline-block;
-    overflow: hidden;
-	vertical-align:top;
+	overflow: hidden;
+	vertical-align: top;
 	width: 50%;
 	height: 27rem;
 }
@@ -299,7 +370,7 @@ a.button {
 	border-radius: 0.25rem;
 	box-sizing: border-box;
 	text-decoration: none;
-	font-family: Bariol,sans-serif;
+	font-family: Bariol, sans-serif;
 	font-weight: 300;
 	color: #FFFFFF;
 	width: 10em;
@@ -307,8 +378,8 @@ a.button {
 }
 
 a.button:hover {
-	color:#000000;
-	background-color:#FFFFFF;
+	color: #000000;
+	background-color: #FFFFFF;
 }
 
 @media screen and (orientation:landscape and max-width: 40rem) {
@@ -317,38 +388,33 @@ a.button:hover {
 	}
 }
 
-@media (max-width: 60rem) {	
-	#one, #two {
+@media (max-width: 60rem) {
+	#one,
+	#two {
 		float: none;
 		padding: 0;
 		width: auto;
 	}
-	
 	.joke {
 		display: none;
 	}
-	
 	.img-wrapper {
 		width: 100%;
 	}
-	
-	.img-wrapper  {
+	.img-wrapper {
 		height: 15rem;
 	}
-	
 	ul {
 		padding-left: 0.5em;
 	}
 }
-	
 
-@media (max-width: 40rem) {	
+@media (max-width: 40rem) {
 	body {
 		background-attachment: scroll;
 		background-size: auto 100vh;
 		background-position: top;
 	}
-	
 	.page {
 		width: 100%;
 		border-radius: 10px 10px 0 0;
@@ -356,43 +422,35 @@ a.button:hover {
 		background-color: white;
 		min-height: calc(100vh - 100px);
 	}
-	
-	.homepage main, main {
+	.homepage main,
+	main {
 		padding: 1rem;
 	}
-	
 	.photo {
 		width: 33%;
 		margin-bottom: 0;
 	}
-	
 	footer {
 		padding: 1rem 2rem 1rem 2rem;
 		border-radius: 10px 10px 0 0;
 		text-align: center;
-
 	}
-	
 	.logo {
 		width: 20vw;
 	}
-	
 	.chevron {
 		position: absolute;
 	}
-	
 	a.button {
 		display: block;
 		margin: 0.5rem auto;
 		max-width: 25rem;
 	}
-	
 	h1 {
 		font-size: 5rem;
 		max-width: 75vw;
 		margin: 0 auto;
 	}
-	
 	p {
 		hyphens: auto;
 	}

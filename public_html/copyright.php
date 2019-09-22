@@ -1,5 +1,5 @@
 ﻿<?php
-require "template.php";
+require "../template.php";
 printCompleteHeader() ?>
 		
 <h2><a class="iconlink" href="<?= WEB_ROOT ?>"><i class="fas fa-caret-left"></a></i> Copyright & credits</h2>
